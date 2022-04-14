@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homework4.ClockActivity"
+    android:background="@drawable/bg_clock">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginBottom="0dp"-->
+<!--        android:text="TextClock 简单实现："-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/textClock"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textClock" />-->
+
+<!--    <TextClock-->
+<!--        android:id="@+id/textClock"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:format24Hour="HH : mm : ss"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="50sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tv_clock"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginBottom="0dp"-->
+<!--        android:text="TextView 实现："-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tv_clock"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/tv_clock" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_clock"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:gravity="center"-->
+<!--        android:text="20 : 20 : 20"-->
+<!--        android:textSize="50sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/clock"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textClock"-->
+<!--        app:layout_constraintVertical_bias="0.5"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+    <com.bytedance.homework.homework4.ClockView
+        android:id="@+id/clock"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+        android:layout_marginStart="14.5dp"
+        android:layout_marginLeft="14.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="14.5dp"
+        android:layout_marginRight="14.5dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.bytedance.homework.homework4.AutoClockView
+        android:id="@+id/auto_clock"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+        android:layout_marginStart="14.5dp"
+        android:layout_marginLeft="14.5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="14.5dp"
+        android:layout_marginRight="14.5dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clock" >
+
+        <Button
+            android:id="@+id/auto_button"
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            android:text="自动时间"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:backgroundTint="#66ccff" />
+
+        <Button
+            android:id="@+id/man_button"
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="手动时间"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:backgroundTint="#66ccff" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

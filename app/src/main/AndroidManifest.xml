@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bytedance.homework">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Homework">
+        <activity
+            android:name=".homework3.BilibiliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework3.NewsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework3.NewsContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework4.ClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework5.TranslateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework6.TaskListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework6.TodoListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework7.ImgVidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework7.ImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homework7.VideoActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

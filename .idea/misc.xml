@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1715" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/bg_1.xml" value="0.164" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/bg_clock.xml" value="0.163" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/edit_text_style.xml" value="0.1715" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/style_round.xml" value="0.1235" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/style_round_1.xml" value="0.1235" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/style_text_background.xml" value="0.187" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/style_text_background_1.xml" value="0.187" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout-land/activity_news_list.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout-land/activity_view_pager2.xml" value="0.12740487387772553" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_6.xml" value="0.14266304347826086" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_bilibili.xml" value="0.1359724612736661" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_clock.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_create_to_do_list.xml" value="0.11011139674378749" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_image.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_image_view.xml" value="0.10739657333890514" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_img_vid.xml" value="0.15820489573889393" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_news_content.xml" value="0.10739657333890514" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_news_list.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_task_list.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_to_do_list.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_to_do_list_adapter.xml" value="0.11011139674378749" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_to_do_list_item.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_translate.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_video.xml" value="0.335" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_view_pager2.xml" value="0.1431159420289855" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_view_pager3.xml" value="0.14324569356300998" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/fragment_news_content.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/fragment_news_list.xml" value="0.11332728921124206" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_adapter.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_dialog_new_task.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_dialog_new_todo.xml" value="0.14855072463768115" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_dialog_to_do_list.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_fragment_list.xml" value="0.10739657333890514" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_fragment_news_list.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_imageView.xml" value="0.1" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_image_view.xml" value="0.15820489573889393" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_news_list.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_page_fragment.xml" value="0.1431159420289855" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_task_list.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_to_do_list.xml" value="0.335" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager2_fragment.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager2_fragment_1.xml" value="0.1" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager2_fragment_2.xml" value="0.1" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager2_fragment_3.xml" value="0.14460562103354488" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager_imgview.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.132" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DFEDF9"
+    tools:context=".homework6.TaskListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:elevation="5dp"
+        android:background="#DFEDF9">
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_tasklist_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#3063AB"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_tasklist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="6dp"/>
+
+        <ImageView
+            android:id="@+id/create_new_task"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:elevation="3dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/icon_new_task" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
