@@ -22,6 +22,7 @@ class TaskListActivity : AppCompatActivity() {
     private var taskListView: RecyclerView? = null
     private var dbHelper = MyDBHelper(this, "TodoList.db", 1)  //数据库OpenHelper
     private var db: SQLiteDatabase? = null  //声明数据库d
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()  //隐藏该页面的标题栏

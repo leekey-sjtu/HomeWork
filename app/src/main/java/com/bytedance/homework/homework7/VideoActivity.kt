@@ -4,6 +4,8 @@ import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -12,7 +14,9 @@ import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
 import android.widget.*
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.WindowInsetsCompat
 import com.bytedance.homework.R
 
 
@@ -49,6 +53,7 @@ class VideoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         title = "视频播放"
         setContentView(R.layout.activity_video)
+//        videoView.setVideoURI(Uri.parse("http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"))
         videoView.setVideoPath(getVideoPath(R.raw.sample_video))  //设置视频路径
         videoView.keepScreenOn = true  //屏幕常亮
         videoView.setOnInfoListener { mp, what, extra -> true }  //监听播放信息, what: 信息或者警告的类型

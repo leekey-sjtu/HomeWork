@@ -8,6 +8,7 @@
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/bg_clock.xml" value="0.163" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/edit_text_style.xml" value="0.1715" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/news_indicator.xml" value="0.2075" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/style_round.xml" value="0.1235" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/style_round_1.xml" value="0.1235" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/style_text_background.xml" value="0.187" />
@@ -16,6 +17,7 @@
         <entry key="..\:/Android/Homework/app/src/main/res/layout-land/activity_view_pager2.xml" value="0.12740487387772553" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_6.xml" value="0.14266304347826086" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_bilibili.xml" value="0.1359724612736661" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_camera.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_clock.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_create_to_do_list.xml" value="0.11011139674378749" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_image.xml" value="0.165" />
@@ -32,9 +34,12 @@
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_video.xml" value="0.335" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_view_pager2.xml" value="0.1431159420289855" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_view_pager3.xml" value="0.14324569356300998" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/fragment_camera_1.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/fragment_camera_2.xml" value="0.10739657333890514" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/fragment_news_content.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/fragment_news_list.xml" value="0.11332728921124206" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_adapter.xml" value="0.25" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_camera_tab.xml" value="0.10739657333890514" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_dialog_new_task.xml" value="0.25" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_dialog_new_todo.xml" value="0.14855072463768115" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_dialog_to_do_list.xml" value="0.25" />
