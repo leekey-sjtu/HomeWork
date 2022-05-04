@@ -23,9 +23,11 @@
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_image.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_image_view.xml" value="0.10739657333890514" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_img_vid.xml" value="0.15820489573889393" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_info.xml" value="0.14596554850407978" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_news_content.xml" value="0.10739657333890514" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_news_list.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_recycler_view.xml" value="0.14596554850407978" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_task_list.xml" value="0.25" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_to_do_list.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_to_do_list_adapter.xml" value="0.11011139674378749" />
@@ -56,6 +58,7 @@
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager2_fragment_2.xml" value="0.1" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager2_fragment_3.xml" value="0.14460562103354488" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager_imgview.xml" value="0.165" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/search_item_layout.xml" value="0.14596554850407978" />
         <entry key="..\:/Android/Homework/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.132" />
       </map>
     </option>

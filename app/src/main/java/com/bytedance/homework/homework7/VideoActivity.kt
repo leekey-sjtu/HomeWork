@@ -62,7 +62,6 @@ class VideoActivity : AppCompatActivity() {
         videoView.setOnPreparedListener {  //监听视频装载完成
             videoView.seekTo(1)  //简单设置视频封面
             totalTime.text = getTimeString(videoView.duration / 1000)  //初始化视频totalTime
-//            setVideoThumbnail(getVideoPath(R.raw.sample_video))
             handler.post(runnable)  //利用线程定时更新currentTime和seekBar
         }
         videoView.setOnCompletionListener {   //监听播放完成

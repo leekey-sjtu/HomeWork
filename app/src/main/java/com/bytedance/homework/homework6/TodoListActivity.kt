@@ -38,9 +38,9 @@ class TodoListActivity : AppCompatActivity() {
     @SuppressLint("Recycle")
     private fun createTodo() {
         val cursor = (db?: dbHelper.writableDatabase).query("todolist", null, null, null, null, null, null, null)
-        if(cursor.count == 24) {
+        if (cursor.count == 24) {
             Toast.makeText(this, "TodoList列表数量已达上限~~~", Toast.LENGTH_SHORT).show()
-        }else {
+        } else {
             val view = LayoutInflater.from(this).inflate(R.layout.layout_dialog_new_todo, null)
             AlertDialog.Builder(this).apply {
                 setTitle("新建列表")

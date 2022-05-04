@@ -10,6 +10,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.bytedance.homework.homework2.RecyclerViewActivity
 import com.bytedance.homework.homework3.BilibiliActivity
 import com.bytedance.homework.homework4.ClockActivity
 import com.bytedance.homework.homework5.TranslateActivity
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        skipActivity(R.id.btn_2, ::class.java)
+        skipActivity(R.id.btn_2, RecyclerViewActivity::class.java)
         skipActivity(R.id.btn_3, BilibiliActivity::class.java)
         skipActivity(R.id.btn_4, ClockActivity::class.java)
         skipActivity(R.id.btn_5, TranslateActivity::class.java)

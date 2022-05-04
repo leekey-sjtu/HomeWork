@@ -9,7 +9,6 @@
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -19,8 +18,8 @@
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/net_security_config"
         android:theme="@style/Theme.Homework">
-        <activity
-            android:name=".homework8.CameraActivity"
+
+        <activity android:name=".homework2.RecyclerViewActivity"
             android:exported="false" />
         <activity
             android:name=".homework3.BilibiliActivity"
@@ -52,6 +51,9 @@
         <activity
             android:name=".homework7.VideoActivity"
             android:configChanges="keyboard|orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".homework8.CameraActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
