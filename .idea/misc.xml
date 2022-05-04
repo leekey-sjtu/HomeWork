@@ -6,6 +6,7 @@
         <entry key="..\:/Android/Homework/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1715" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/bg_1.xml" value="0.164" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/bg_clock.xml" value="0.163" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/btn_selector.xml" value="0.1725" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/edit_text_style.xml" value="0.1715" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/news_indicator.xml" value="0.2075" />
@@ -20,6 +21,7 @@
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_camera.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_clock.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_create_to_do_list.xml" value="0.11011139674378749" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_detail.xml" value="0.25" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_image.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_image_view.xml" value="0.10739657333890514" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_img_vid.xml" value="0.15820489573889393" />
@@ -58,7 +60,7 @@
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager2_fragment_2.xml" value="0.1" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager2_fragment_3.xml" value="0.14460562103354488" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/layout_viewpager_imgview.xml" value="0.165" />
-        <entry key="..\:/Android/Homework/app/src/main/res/layout/search_item_layout.xml" value="0.14596554850407978" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/search_item_layout.xml" value="0.25" />
         <entry key="..\:/Android/Homework/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.132" />
       </map>
     </option>
