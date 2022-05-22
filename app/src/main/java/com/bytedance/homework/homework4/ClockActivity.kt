@@ -15,11 +15,11 @@ import com.bytedance.homework.R
 
 class ClockActivity : AppCompatActivity(), View.OnClickListener {
 
-    var soundPool = SoundPool(10, AudioManager.STREAM_SYSTEM, 5)
-    var handler: Handler = Handler(Looper.getMainLooper())
-    var runnable: Runnable = Runnable {
+    private var soundPool = SoundPool(10, AudioManager.STREAM_SYSTEM, 5)
+    private var handler: Handler = Handler(Looper.getMainLooper())
+    private var runnable: Runnable = Runnable {
         run {
-            soundPool.play(1, 1.0F, 1.0F, 1, 0, 1.2F)  //播放时钟声音
+            soundPool.play(1, 1f, 1f, 0, 0, 1.2f)  //播放时钟声音
             findViewById<AutoClockView>(R.id.auto_clock).setDeg()  //每隔一秒修改度数
             handler.postDelayed(runnable, 1000)  //隔一秒重复执行任务
         }

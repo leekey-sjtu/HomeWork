@@ -12,8 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.bytedance.homework.R
 import com.bytedance.homework.homework3.NewsListAdapter.OnItemClickListener
-import com.google.android.material.tabs.TabLayout
-import com.google.android.material.tabs.TabLayoutMediator
 
 class NewsListActivity : AppCompatActivity() {
 
@@ -25,21 +23,14 @@ class NewsListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_news_list)
-//        viewPager2 = findViewById(R.id.vp_news_content)
-//        val fragments = mutableListOf<Fragment>()
-//        fragments.add(NewsContentFragment("title 1", "content 1", Color.parseColor("#00f312")))
-//        fragments.add(NewsContentFragment("title 2", "content 2", Color.parseColor("#ffff12")))
-//        fragments.add(NewsContentFragment("title 3", "content 3", Color.parseColor("#f8937f")))
-//        viewPager2?.adapter = ViewPager2Adapter(supportFragmentManager, lifecycle, fragments)
 
         val data = mutableListOf<String>("新闻1", "新闻2", "新闻3")
         val adapter = NewsListAdapter(data)
-        val newslist = findViewById<RecyclerView>(R.id.rv_news_list)
-        newslist.layoutManager = LinearLayoutManager(this)
-        newslist.adapter = adapter
+        val newsList = findViewById<RecyclerView>(R.id.rv_news_list)
+        newsList.layoutManager = LinearLayoutManager(this)
+        newsList.adapter = adapter
 
         viewPager2 = findViewById(R.id.vp_news_content)
-
         if (viewPager2 != null) {
             isTwoPane = true
             val fragments = mutableListOf<Fragment>()
@@ -52,10 +43,10 @@ class NewsListActivity : AppCompatActivity() {
         adapter.setOnItemClickListener(object: OnItemClickListener {  //adapter设置点击事件
             override fun onItemClick(position: Int) {
                 if(isTwoPane) {
-                    Log.d("12345", "横屏")
+                    Log.d("wdw", "横屏")
                     viewPager2?.currentItem = position
                 } else {
-                    Log.d("12345", "竖屏")
+                    Log.d("wdw", "竖屏")
                     val myIntent = Intent(this@NewsListActivity, NewsContentActivity::class.java)
                     myIntent.putExtra("position", position)
                     startActivity(myIntent)
@@ -84,12 +75,12 @@ class NewsListActivity : AppCompatActivity() {
 //        }
     }
 
-    override fun onBackPressed() {  //返回到左一页面，而不直接退出
-        Log.d("12345", "currentItem = ${viewPager2?.currentItem}")
-        if (viewPager2?.currentItem == 0) {
-            super.onBackPressed()
-        } else {
-            viewPager2?.currentItem = viewPager2?.currentItem!! - 1
-        }
-    }
+//    override fun onBackPressed() {  //返回到左一页面，而不直接退出
+//        Log.d("12345", "currentItem = ${viewPager2?.currentItem}")
+//        if (viewPager2?.currentItem == 0) {
+//            super.onBackPressed()
+//        } else {
+//            viewPager2?.currentItem = viewPager2?.currentItem!! - 1
+//        }
+//    }
 }

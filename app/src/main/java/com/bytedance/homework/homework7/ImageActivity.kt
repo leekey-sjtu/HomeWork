@@ -25,7 +25,6 @@ class ImageActivity : AppCompatActivity() {
 
             override fun onPageSelected(position: Int) {
                 currentPosition = position
-
             }
 
             override fun onPageScrollStateChanged(state: Int) {

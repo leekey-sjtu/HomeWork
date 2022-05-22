@@ -6,6 +6,7 @@
         <entry key="..\:/Android/Homework/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1715" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/bg_1.xml" value="0.164" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/bg_clock.xml" value="0.163" />
+        <entry key="..\:/Android/Homework/app/src/main/res/drawable/bg_main_activity.xml" value="0.1275" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/btn_selector.xml" value="0.1725" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/edit_text_style.xml" value="0.1715" />
         <entry key="..\:/Android/Homework/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
@@ -17,7 +18,7 @@
         <entry key="..\:/Android/Homework/app/src/main/res/layout-land/activity_news_list.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout-land/activity_view_pager2.xml" value="0.12740487387772553" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_6.xml" value="0.14266304347826086" />
-        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_bilibili.xml" value="0.1359724612736661" />
+        <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_bilibili.xml" value="0.25" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_camera.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_clock.xml" value="0.165" />
         <entry key="..\:/Android/Homework/app/src/main/res/layout/activity_create_to_do_list.xml" value="0.11011139674378749" />
